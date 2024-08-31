@@ -1,0 +1,63 @@
+.project{
+    height: 90%;
+    border-radius: 6px;
+}
+.project .main{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    height: 65%;
+    top: 90px;
+    background-color: white;
+    border-radius: 20px;
+}
+.project .main .header{
+    position: relative;
+    top: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.project .main .header input[type='text']{
+    height: 60%;
+    top: 16%;
+    position: relative;
+    outline: none;
+    border: 1px solid #d1cdcd;
+    left: 4%;
+}
+@media (max-width: 430px) {
+    .project .main .header input[type='text']{
+        width: 60%;
+    }
+    .project .main .header input[type='text']::placeholder{
+        font-size: 7px;
+    }
+}
+.project .main .header input[type='submit']{
+    height: 70%;
+    width: 20%;
+    position: relative;
+    top: 15%;
+    outline: none;
+    border: 1px solid #eee;
+    color: white;
+    right: 4%;
+}
+.project .main ul{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    left: -40px;
+}
+.project .main ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 17px 19px 12px 43px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 11px;
+    display: flex;
+    justify-content: space-between;
+}

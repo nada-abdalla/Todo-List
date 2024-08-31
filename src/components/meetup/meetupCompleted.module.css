@@ -1,0 +1,50 @@
+.complete{
+    height: 90%;
+    border-radius: 6px;
+}
+.complete .main{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    height: 65%;
+    top: 90px;
+    background-color: white;
+    border-radius: 20px;
+}
+.complete .main .header{
+    position: relative;
+    top: 0%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.complete .main .header h2{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.complete .main ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 6px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 11px;
+}
+.complete .main ul li::before {
+    content: '✓';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid #d1cdcd;
+    top: 11px;
+    left: -26px;
+    font-size: 35px;
+    line-height: 0;
+    color: #d1cdcd;
+}
+
+
